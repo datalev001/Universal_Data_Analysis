@@ -5,6 +5,10 @@ import numpy as np
 # datapath = 'XXXX', set your data path
 os.chdir(datapath)
 
+### For those seeking additional details about this dataset, 
+### please refer to the following reference: 
+### https://archive.ics.uci.edu/ml/datasets/Online+Retail+II
+
 ##########data clean and processing
 # Read the data from 'online_retail_II.xlsx' file
 tran_df = pd.read_excel('online_retail_II.xlsx')
